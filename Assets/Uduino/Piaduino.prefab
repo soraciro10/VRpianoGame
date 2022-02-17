@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2994826245559490158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2998025382327660860}
+  - component: {fileID: 2891015140491808368}
+  - component: {fileID: 2993738911980253920}
+  - component: {fileID: 2993738911980253927}
+  m_Layer: 0
+  m_Name: Uduino 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8c53aeac11c2023478cfc6f967a46c53, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2998025382327660860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994826245559490158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 995.235, y: 19.595823, z: 1002.9224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2891015140491808368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994826245559490158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5a4e52dfc3107499249fb2d34a1bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pins:
+  - arduinoName: uduinoBoard
+    pinMode: 2
+    prevPinMode: 2
+    currentPin: 14
+    prevPin: 14
+    isEditorPin: 1
+    sendValue: 9
+    prevSendValue: 9
+    lastReadValue: 1023
+  activeExtentionsMap:
+    keys:
+    - UduinoDevice_DesktopSerial
+    values: 01
+  presentExtentionsMap:
+    keys:
+    - UduinoDevice_DesktopSerial
+    values: 01
+  ManagerState: 0
+  debugLevel: 0
+  baudRate: 9600
+  limitSendRate: 0
+  readTimeout: 30
+  writeTimeout: 30
+  threadIdleDelay: 16
+  alwaysRead: 1
+  readAfterCommand: 1
+  skipMessageQueue: 0
+  messageQueueLength: 10
+  defaultArduinoBoardType: 0
+  useCuPort: 0
+  forcePinEditor: 0
+  sendRateDelay: 20
+  discoverTries: 10
+  autoDiscover: 1
+  delayBeforeDiscover: 0.5
+  stopAllOnQuit: 1
+  stopAllOnPause: 0
+  autoReconnect: 0
+  autoReconnectDelay: 5
+  shouldReconnect: 0
+  blackListedPorts: []
+  OnDataReceivedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBoardConnectedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBoardDisconnectedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  displayAndroidTextGUI: 0
+  autoConnectToLastDevice: 1
+  bleScanDuration: 3
+  interfaceType: 2
+  uduinoWiFiBoards: []
+  isApplicationQuiting: 0
+--- !u!114 &2993738911980253920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994826245559490158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbc3b9a658a44042b966e26baf8f7af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2993738911980253927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994826245559490158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9d78b00eb18394994716812e9a299d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s1: {fileID: 0}
+  slider: {fileID: 0}
